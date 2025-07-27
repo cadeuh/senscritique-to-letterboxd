@@ -1,0 +1,45 @@
+{
+  "name": "senscritique-to-letterboxd",
+  "version": "1.0.0",
+  "description": "Extract movie ratings from Senscritique and convert to Letterboxd-compatible CSV format",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "extract": "ts-node src/index.ts",
+    "convert": "node scripts/convert-to-letterboxd.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.10",
+    "puppeteer": "^22.8.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.1"
+  },
+  "keywords": [
+    "senscritique",
+    "letterboxd", 
+    "movie-ratings",
+    "csv-export",
+    "web-scraping",
+    "movies"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cadeuh/senscritique-to-letterboxd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cadeuh/senscritique-to-letterboxd/issues"
+  },
+  "homepage": "https://github.com/cadeuh/senscritique-to-letterboxd#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
