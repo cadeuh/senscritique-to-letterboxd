@@ -6,6 +6,8 @@
 
 Extract your movie ratings from **Senscritique** and convert them to **Letterboxd-compatible CSV format** for easy manual import.
 
+Note: I've developed it using Claude, it worked fine for me, but might be subject to errors as I didn't test it for other accounts.
+
 ## ✨ Features
 
 - 🎯 **Complete extraction** - Extracts all your rated movies from Senscritique
@@ -164,12 +166,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## ⚠️ Disclaimer
 
 This tool is for personal use only. Please respect Senscritique's terms of service and rate limiting. The authors are not responsible for any misuse or violations.
-
-## 🔗 Related Projects
-
-- [SensCritique→Letterboxd by Steeve Vu](https://letterboxd.com/about/importing-data/) - Alternative implementation
-- [Other import tools](https://letterboxd.com/about/importing-data/) - Official Letterboxd import helpers
-
----
-
-**Made with ❤️ for movie lovers who want to migrate their ratings**
